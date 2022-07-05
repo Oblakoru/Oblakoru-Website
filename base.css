@@ -1,4 +1,78 @@
-#main_logo {
+
+body > header {
+    background-color: #031634;
+}
+
+.center_align {
+    text-align: center;
+}
+
+#logotip {
+    height: 60px;
+    padding: 18px;
+    float: left;
+}
+
+#name {
+    float: left;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#name a {
+    text-decoration: none;
+}
+
+#nav_bar{ 
+     overflow: hidden;
+     margin-right: 50px;
+    padding-bottom: 10px;
+}
+
+#nav_bar li {
+    float: right;
+    list-style-type: none;
+}
+
+#nav_bar a {
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+}
+
+#nav_bar a:hover {
+    color: #E8DDCB;
+
+}
+
+p,a, h1, h2 {
+    color: #E8DDCB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* display block shows the element as a block 
+Displaying the links as block elements makes the whole link area clickable (not just the text), 
+and it allows us to specify the width (and padding, margin, height, etc. if you want)
+
+display: inline; - By default, <li> elements are block elements. Here,
+ we remove the line breaks before and after each list item, to display them on one line
+ 
+ 
+ #main_logo {
     height: 75px;
 }
 
@@ -8,18 +82,15 @@ img {
 
 ul {
   list-style-type: none;
-  overflow: hidden; /* The overflow property specifies whether to clip the content
-   or to add scrollbars when the content of an element is too big to fit in the specified area. */
+  overflow: hidden; 
   background-color: aliceblue;
 }
 
-
 #nav_bar li {
-    /*
-    display: inline;
-    padding-left: 15px;
-    background-color: aliceblue;
-    */
+
+  //  display: inline;
+  //  padding-left: 15px;
+  //  background-color: aliceblue;
     float: left;
     
 } 
@@ -45,14 +116,6 @@ ul {
 
 
 
-
-
-
-/* display block shows the element as a block 
-Displaying the links as block elements makes the whole link area clickable (not just the text), 
-and it allows us to specify the width (and padding, margin, height, etc. if you want)
-
-display: inline; - By default, <li> elements are block elements. Here,
- we remove the line breaks before and after each list item, to display them on one line*/
+*/
 
 
