@@ -1,11 +1,72 @@
 
+
+html, body, #soc {
+    margin: 0;
+    padding: 0;
+}
+
 body > header {
     background-color: #031634;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+}
+
+.welcome {
+    margin-top: 0px;
+    font-size: 45px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.welcome_screen {
+    background-color: #031634;
+    height: 200px;
+    margin: 0px;
 }
 
 .center_align {
     text-align: center;
 }
+
+.container > section:nth-of-type(1) {
+    background-color: #E8DDCB;
+    height: 370px;
+}
+
+.container > section:nth-of-type(2) {
+    background-color: #CDB380;
+    height: 370px;
+}
+
+.intro1 {
+    font-size: 30px;
+    color: #031634;
+    padding:20px;
+    margin-top: 20px;
+}
+
+
+.socials {
+    overflow: hidden;
+}
+
+.socials > img:nth-of-type(1) {
+    height: 225px; 
+    float: right;
+    display: absolute;
+}
+
+#soc {
+
+    font-size: 20px;
+}
+
+
 
 #logotip {
     height: 60px;
@@ -31,8 +92,12 @@ body > header {
 }
 
 #nav_bar li {
-    float: right;
+    float: left;
     list-style-type: none;
+}
+
+#nav_bar ul {
+    float: right;
 }
 
 #nav_bar a {
@@ -48,6 +113,23 @@ body > header {
 
 p,a, h1, h2 {
     color: #E8DDCB;
+}
+
+#discord {
+    height: 60px;
+}
+
+footer {
+    background-color: #031634;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+}
+
+footer > p {
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
 }
 
 
