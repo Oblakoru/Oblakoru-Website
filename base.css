@@ -53,16 +53,18 @@ body > header {
 
 .socials {
     overflow: hidden;
+    position: relative;
 }
 
 .socials > img:nth-of-type(1) {
     height: 225px; 
     float: right;
-    display: absolute;
 }
 
 #soc {
-
+    right: 50px;
+    top: 10px;
+    position: absolute;
     font-size: 20px;
 }
 
@@ -116,9 +118,22 @@ p,a, h1, h2 {
 }
 
 #discord {
-    height: 60px;
+    height: 50px;
+    position: absolute;
+    right: 70px;
+    top: 70px;
 }
 
+#github {
+    height: 50px;
+    position: absolute;
+    right: 65px;
+    top: 140px;
+}
+
+#zemljevid{
+    width: 400px;
+}
 footer {
     background-color: #031634;
     margin: 0px;
