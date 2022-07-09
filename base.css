@@ -5,6 +5,10 @@ html, body, #soc {
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 body > header {
     background-color: #031634;
 }
@@ -96,6 +100,7 @@ body > header {
 #nav_bar li {
     float: left;
     list-style-type: none;
+    font-size: 20px;
 }
 
 #nav_bar ul {
